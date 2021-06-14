@@ -27,11 +27,12 @@ body {
   font-size: small;
   position: relative;
   left: 1050px;
+  color: white;
 }
 #searchTextBox {
   width: 100px;
   /* border-radius: 15px; */
-  border-color: dodgerblue;
+  border-color: white;
 }
 
 .nav_bar {
