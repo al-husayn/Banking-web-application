@@ -1,0 +1,372 @@
+html,
+body {
+  font-family: "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.main-container {
+  font-family: "Segoe UI";
+  /* border: 1px solid orange; */
+}
+.header_bar {
+  display: grid;
+  height: 100px;
+  line-height: 18px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #424242;
+  color: #3c4b6c;
+}
+.header_sales {
+  height: 2em;
+  padding: 0px;
+}
+
+.header_sales > p.sales_text {
+  font-size: small;
+  position: relative;
+  left: 1050px;
+}
+#searchTextBox {
+  width: 100px;
+  /* border-radius: 15px; */
+  border-color: purple;
+}
+
+.nav_bar {
+  display: inline;
+}
+
+.nav_bar img#cloud_icon {
+  position: relative;
+  left: 0px;
+  width: 100px;
+  display: inline;
+  margin-left: 70px;
+  margin-right: 30px;
+  bottom: 30px;
+}
+
+.nav_bar .nav_items {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  height: 0px;
+  line-height: 0px;
+  border-bottom: 3px solid transparent;
+  color: #222;
+  position: relative;
+  bottom: 70px;
+  left: 20px;
+}
+
+.nav_bar .nav_items a {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+/* hovering for nav items */
+.nav_bar .nav_items a:hover {
+  border-bottom: 3px solid #f48120;
+  padding-bottom: 32px;
+}
+
+.nav_bar .nav_logging {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  height: 0px;
+  line-height: 0px;
+  border-bottom: 3px solid transparent;
+  color: #222;
+  position: relative;
+  bottom: 70px;
+  left: 250px;
+}
+
+.nav_bar .nav_logging a {
+  padding-left: 20px;
+  text-decoration: none;
+  position: relative;
+  right: 0px;
+}
+/* hovering for login side */
+.nav_bar .nav_logging a:hover {
+  border-bottom: 3px solid #f48120;
+  padding-bottom: 32px;
+}
+
+.Product_background_div {
+  background-color: #f3f3f4;
+  padding: 0px 30px;
+}
+
+.img_of_text {
+  position: relative;
+  bottom: 190px;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 0px;
+  left: 60px;
+}
+.contact_img {
+  position: relative;
+  right: 32px;
+}
+.img_txt {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* SAVINGS AND INVESTMENT */
+.SavingInvestment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* WHAT'S NEW SESSION */
+.whatsnew_main_div {
+  height: 240px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.whatsnew_sections_main_div {
+}
+
+.new_heading_header {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header_text {
+  font-size: 26px;
+}
+
+.whatsnew_foundation_msg {
+}
+
+.foundation_msg {
+  margin-bottom: 2rem;
+  margin-top: 8px;
+}
+
+.foundation_review {
+}
+
+.foundation_review_msg {
+  text-decoration: none;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+  color: #0055dc;
+  margin-bottom: 1rem;
+}
+/* END OF SAVINGS AND INVESTMENT */
+
+/* START OF CARDS  */
+.Card_main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card_submain_div {
+  background-color: white;
+}
+
+/* WHAT'S NEW CARD CARD SESSION */
+
+.Card_main_div {
+  padding: 30px;
+}
+.whatsnew_main_div_1 {
+  height: 240px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 2em 6em;
+  background-color: white;
+}
+
+.whatsnew_sections_main_div_1 {
+  width: 100%;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.new_heading_header_1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header_text_1 {
+  font-size: 20px;
+}
+
+.whatsnew_foundation_msg_1 {
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.small_text {
+  font-size: 10px;
+}
+
+.foundation_msg_1 {
+  margin-bottom: 2rem;
+  margin-top: 8px;
+}
+
+.foundation_review_1 {
+}
+
+.foundation_review_msg_1 {
+  text-decoration: none;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+  color: #0055dc;
+  margin-bottom: 1rem;
+}
+/*END OF CARDS*/
+
+.footer_div {
+  border: 1px solid orange;
+}
+
+.grid-item_sub_footer {
+  margin-top: 60px;
+  grid-column: 1/5;
+  background-color: #609baa;
+  height: auto;
+  color: white;
+}
+
+.sub_footer_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  border: solid 0px rgb(44, 44, 44);
+  box-sizing: border-box;
+  color: white;
+}
+
+.sub_footerItems a {
+  text-decoration: none;
+  color: white;
+}
+
+.sub_footerItems {
+  width: 100%;
+  height: auto;
+  border: solid 0px rgb(29, 28, 28);
+  font-size: 16px;
+  font-family: var(--myfont);
+  text-align: left;
+  padding-top: 20px;
+  color: white;
+}
+.sub_footerItems :first-child:hover {
+  color: #d86422;
+}
+.sub_footerItems h4 {
+  font-size: 1.3em;
+}
+
+.stand {
+  position: relative;
+  left: 30px;
+}
+
+#sub_footerItemButton {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(66, 64, 64);
+  font-size: 1.1em;
+  color: rgb(255, 247, 247);
+  font-size: bold;
+  margin-top: 20px;
+  outline: none;
+}
+
+.changes {
+  width: 100%;
+  grid-column: 1/5;
+  padding-top: 30px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.changes .ImgLast {
+  width: 50%;
+  height: 100px;
+  border: solid 0px black;
+  background-image: url(../images/h-logo-white.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  color: blanchedalmond;
+  margin: auto;
+}
+
+.sub_footer_1 {
+  width: 100%;
+  height: auto;
+  grid-column: 1/5;
+  box-sizing: border-box;
+  background-color: #3c4b6c;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.footerItems {
+  font-size: 25px;
+  font-family: var(--myfont);
+  border: solid 0px black;
+  display: flex;
+  box-sizing: border-box;
+  color: white;
+}
+
+.wificon {
+  transform: rotate(45deg);
+  font-size: 16px;
+}
+
+.move2 {
+  margin: 10px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+.sub_footer_1 .footerItems div .item1:hover {
+  transform: translateY(-4px);
+}
+.item1 {
+  color: white;
+}
+
+.sub_footer_1 > .center {
+  position: relative;
+  padding-top: 30px;
+}
+.sub_footer_1 .left {
+  position: relative;
+  right: 120px;
+}
+
+.sub_footer_1 .left:hover {
+  cursor: pointer;
+  color: #d86422;
+  text-shadow: 1px 1px 1px rgb(17, 17, 17);
+}
+
+.sub_footer_1 .right {
+  position: relative;
+  left: 98px;
+}
