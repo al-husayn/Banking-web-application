@@ -15,7 +15,7 @@ body {
   line-height: 18px;
   box-sizing: border-box;
   border-bottom: 1px solid #424242;
-  color: #3c4b6c;
+  color: dodgerblue;
 }
 .header_sales {
   height: 2em;
@@ -30,7 +30,7 @@ body {
 #searchTextBox {
   width: 100px;
   /* border-radius: 15px; */
-  border-color: purple;
+  border-color: tomato;
 }
 
 .nav_bar {
@@ -103,7 +103,7 @@ body {
 .grid-item_sub_footer {
   margin-top: 60px;
   grid-column: 1/5;
-  background-color: #609baa;
+  background-color: dodgerblue;
   height: auto;
   color: white;
 }
@@ -214,7 +214,7 @@ input:focus {
   border: none;
 }
 button {
-  background-color: #3c4b6c;
+  background-color: dodgerblue;
   color: white;
   padding: 14px 0;
   margin: 10px 0;
@@ -257,7 +257,7 @@ span.psw {
   height: auto;
   grid-column: 1/5;
   box-sizing: border-box;
-  background-color: #3c4b6c;
+  background-color: dodgerblue;
   display: flex;
   justify-content: space-around;
   color: white;

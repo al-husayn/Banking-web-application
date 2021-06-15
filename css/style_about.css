@@ -15,7 +15,7 @@ body {
   line-height: 18px;
   box-sizing: border-box;
   border-bottom: 1px solid #424242;
-  color: #3c4b6c;
+  color: dodgerblue;
 }
 .header_sales {
   height: 2em;
@@ -30,7 +30,7 @@ body {
 #searchTextBox {
   width: 100px;
   /* border-radius: 15px; */
-  border-color: purple;
+  border-color:dodgerblue;
 }
 
 .nav_bar {
@@ -67,7 +67,7 @@ body {
 
 /* hovering for nav items */
 .nav_bar .nav_items a:hover {
-  border-bottom: 3px solid #f48120;
+  border-bottom: 3px solid tomato;
   padding-bottom: 32px;
 }
 
